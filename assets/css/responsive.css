@@ -1,0 +1,221 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+
+/*******************************
+	Default Responsive Code
+*******************************/
+@media screen and (max-width: 991px){
+	.section-padding {
+		padding: 50px 0;
+	}
+	.section-top-space {
+		margin-top: 80px;
+	}
+}
+@media screen and (max-width:577px){
+	.section-padding {
+		padding: 40px 0;
+	}
+	.section-top-space {
+		margin-top: 80px;
+	}
+}
+
+/*******************************
+	Mobile menu Responsive Code
+*******************************/
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 991px){
+	.js .main-menu ul {
+		float: none;
+		margin: auto;
+		display: block;
+		
+	}
+	#header-main:after {
+		visibility: hidden;
+	}
+	.main-logo {
+		height: 80px;
+		width: 80px;
+		border-radius: 80px;
+		background-color: rgba(0, 0, 0, 0.445);
+		position: relative;
+		top: 4%;
+		left: 0;
+
+
+
+	}
+	.main-logo img {
+		position: absolute;	
+		top: -5px;
+		left: 22px;
+
+	}
+	
+}
+@media screen and (max-width:577px){
+	.js .slicknav_menu {
+	 right: 1%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	/* #menu is the original menu */
+	.js #mobile-menu {
+		display:none;
+	}
+
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+
+/*******************************
+	hero area Responsive Code
+*******************************/
+
+@media screen and (max-width: 575px) {
+		
+
+.hero-content-cell h1 {
+    font-size: 35px;
+}
+
+.profession {
+    
+    flex-direction: column;
+
+}
+.profession .profession-item {
+    margin-top: 10px;
+}
+
+
+
+}
+
+/*******************************
+	hero area Responsive Code
+*******************************/
+
+@media screen and (max-width: 991px) {
+	.about-left .about-left-icons ul li a {
+		display: inline-block;
+	}	
+
+}
+@media screen and (max-width: 575px){
+.about-right p{
+	text-align: justify;
+}
+.about-right a {
+	text-align: center;
+	width: 100%;
+}
+}
+
+/*******************************
+	Working area Responsive Code
+*******************************/
+@media screen and (max-width: 991px) {
+.working .icon-box {
+	margin-top: 10px;
+}
+.work-experience .work-experience-content .edu {
+	margin-top: 40px;
+}
+}
+
+@media screen and (max-width: 575px){
+	.working .icon-box {
+		height: 100%;
+		width: 100%;
+	}
+	.work-experience .work-experience-content .content{
+		text-align: justify;
+	}
+	.work-experience .work-experience-content .edu {
+		margin-top: 40px;
+	}
+
+}
+
+/*******************************
+	Counter area Responsive Code
+*******************************/
+
+@media screen and (max-width: 991px){
+	.counter-item{
+		margin-bottom: 40px;
+	}
+}
+
+
+/*******************************
+	portfolio area Responsive Code
+*******************************/
+
+@media screen and (max-width: 767px){
+	.portfolio-item {
+		margin-bottom: 0none;
+	}
+}
+
+/*******************************
+	contact area Responsive Code
+*******************************/
+@media screen and (max-width: 991px){
+	.adress-sec {
+		margin-top: 18px;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.contact-left {
+		height: auto;
+	}
+	.contact-left .left-form button {
+		width: 100%;
+	}
+	.adress-sec, .phone-sec, .web-sec {
+    height: auto;
+	}
+	.adress-info p, .phone-info p, .web-info p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+}
+
+/*******************************
+	footer area Responsive Code
+*******************************/
+
+@media screen and (max-width: 991px){
+	.footer-icon {
+		position: relative;
+		display: flex;
+		justify-content: center;
+
+	}
+	.footer-icon ul {
+		float: none;
+	}
+	.copyright p {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.footer-icon ul li {
+		font-size: 18px;
+		margin-right: 7px;
+		padding: 7px;
+	}
+}
